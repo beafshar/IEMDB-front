@@ -1,0 +1,30 @@
+.row {
+    display: -webkit-flex;
+    display: flex;
+    row-gap: 2px;
+    column-gap: 20px;
+    flex-basis: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+.row.right {
+    justify-content: right;
+}
+
+.row.top {
+    align-items: center;
+    justify-content: center;
+    background-color: #292929;
+}
+
+.row.down {
+    background-color: #4E4E50;
+    border-radius: 50px;
+}
+@media (max-width: 800px) {
+    .row {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+}

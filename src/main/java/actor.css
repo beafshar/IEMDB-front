@@ -1,16 +1,7 @@
 /*@import url('vazir-fonts/fonts.css');*/
 /*@import url('vazir-fd-fonts/font-face-FD.css');*/
 
-html {
-    font-family:  Vazir FD;
-    font-size: 23px;
-    color: #dddddd;
-}
 
-font {
-    size:20px;
-    color:#FF7A59;
-}
 
 
 .row {
@@ -31,8 +22,6 @@ font {
     align-items: center;
     justify-content: center;
     background-color: #292929;
-
-
 }
 
 .row.down {

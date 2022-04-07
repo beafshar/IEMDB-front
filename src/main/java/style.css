@@ -1,3 +1,14 @@
+html {
+    font-family:  Vazir FD;
+    font-size: 23px;
+    color: #dddddd;
+}
+
+font {
+    size:20px;
+    color:#FF7A59;
+}
+
 body {
     background-color: #292929;
     margin: 0;
