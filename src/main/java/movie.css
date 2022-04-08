@@ -1,6 +1,7 @@
 .column {
-    flex: 1;
+    flex: 3;
     margin: auto;
+    /*width: 100%;*/
     width: 1200px;
     position: center;
     flex-basis: 10em;
@@ -15,62 +16,80 @@
     object-fit: fill;
     height: 600px;
     flex-direction: row;
-
     justify-content: center;
+    position: center;
+
 
 
 }
 .transparent_row {
     flex-direction: row;
     display: -webkit-flex;
-    display: flex;
+    /*display: flex;*/
     row-gap: 2px;
     column-gap: 20px;
     flex-basis: auto;
     height: 350px;
     padding: 20px;
     width: 1000px;
-    background-color: #B1202560;
+    position: center;
+
 
 }
 
-.transparent_row first{
-    background-color: #4E4E5070;
-    height: 400px;
-    width: 400px;
+.transparent_row.first{
+    margin-top: 340px;
+    background-color: #4E4E5050;
     justify-content: center;
+    position: center;
+    border-radius: 50px;
+}
+
+.transparent_row.seccond{
+    margin-top: 50px;
+    width: 1000px;
+    background-color: #4E4E50;
+    height: 400px;
+    border-radius: 50px;
+    justify-content: center;
+    position: center;
 }
 
 .movie_list.actor{
-    background-color: white;
+    width: 990px;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+    justify-items: center;
 }
 
-.actor_list.actor img{
+.image.actor {
     height: 250px;
     width: 250px;
     object-fit: fill;
     border-radius: 100%;
-
 }
+
+.overlay.actor {
+    border-radius: 100%;
+}
+
 
 .rectangle {
     height: 250px;
     width: 180px;
     text-align: center;
     background-color: #B12025;
-    padding: 10px;
+    padding: 50px 15px;
 }
-/*.image-cropper {*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    position: relative;*/
-/*    overflow: hidden;*/
-/*    border-radius: 50%;*/
-/*}*/
-/*.image-cropper img {*/
-/*    object-fit: fill;*/
-/*    display: inline;*/
-/*    margin: 0 auto;*/
-/*    height: 100%;*/
-/*    width: auto;*/
-/*}*/
+
+.rectangle header{
+    font-size: 40px;
+}
+.rectangle p{
+    font-size: 14px;
+}
+.checked {
+    color: orange;
+    size: 40px;
+}
