@@ -1,0 +1,76 @@
+.column {
+    flex: 1;
+    margin: auto;
+    width: 1200px;
+    position: center;
+    flex-basis: 10em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.header_avatar {
+    background-image: url("header.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    object-fit: fill;
+    height: 600px;
+    flex-direction: row;
+
+    justify-content: center;
+
+
+}
+.transparent_row {
+    flex-direction: row;
+    display: -webkit-flex;
+    display: flex;
+    row-gap: 2px;
+    column-gap: 20px;
+    flex-basis: auto;
+    height: 350px;
+    padding: 20px;
+    width: 1000px;
+    background-color: #B1202560;
+
+}
+
+.transparent_row first{
+    background-color: #4E4E5070;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+}
+
+.movie_list.actor{
+    background-color: white;
+}
+
+.actor_list.actor img{
+    height: 250px;
+    width: 250px;
+    object-fit: fill;
+    border-radius: 100%;
+
+}
+
+.rectangle {
+    height: 250px;
+    width: 180px;
+    text-align: center;
+    background-color: #B12025;
+    padding: 10px;
+}
+/*.image-cropper {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.image-cropper img {*/
+/*    object-fit: fill;*/
+/*    display: inline;*/
+/*    margin: 0 auto;*/
+/*    height: 100%;*/
+/*    width: auto;*/
+/*}*/

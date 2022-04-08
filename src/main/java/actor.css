@@ -23,11 +23,21 @@
 }
 
 .column {
-    padding: 10px;
+    flex: 1;
+    margin: auto;
+    width: 1200px;
+    position: center;
     flex-basis: 10em;
     align-items: center;
     justify-content: center;
+    /*display: flex;*/
 }
+/*.column {*/
+/*    padding: 10px;*/
+/*    flex-basis: 10em;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
 .column.side {
     -webkit-flex: 1;
@@ -55,8 +65,8 @@
 
 @media (max-width: 800px) {
     .row {
-        -webkit-flex-direction: column;
-        flex-direction: column;
+        -webkit-flex-direction: row;
+        flex-direction: row;
     }
 }
 
