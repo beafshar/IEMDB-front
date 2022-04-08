@@ -2,8 +2,6 @@
 /*@import url('vazir-fd-fonts/font-face-FD.css');*/
 
 
-
-
 .row {
     display: -webkit-flex;
     display: flex;
@@ -24,15 +22,8 @@
     background-color: #292929;
 }
 
-.row.down {
-    background-color: #4E4E50;
-    border-radius: 50px;
-}
 
-.row.down header{
-    align-items: center;
-    justify-content: center;
-}
+
 
 .column {
     padding: 10px;
@@ -72,3 +63,4 @@
         flex-direction: column;
     }
 }
+

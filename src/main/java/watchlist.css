@@ -6,6 +6,8 @@
     flex-basis: auto;
     margin: 20px;
     padding: 20px;
+    flex: 0;
+    width: 800px;
 }
 
 .row.right {
@@ -22,9 +24,37 @@
     background-color: #4E4E50;
     border-radius: 50px;
 }
+
+.column {
+    flex: 1;
+    background-color: #FF7A59;
+    position: center;
+    padding: 10px;
+    flex-basis: 10em;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 800px) {
     .row {
-        -webkit-flex-direction: row;
-        flex-direction: row;
+        -webkit-flex-direction: column;
+        flex-direction: column;
     }
+}
+
+.movie_top_nav {
+    overflow: hidden;
+    background-color: #FF7A59;
+    position: relative;
+    display: flex;
+    /*flex: 0;*/
+    /*width: 50px;*/
+    height: 50px;
+}
+
+.topnav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    object-fit: fill;
 }
