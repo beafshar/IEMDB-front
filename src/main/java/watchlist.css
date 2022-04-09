@@ -77,3 +77,25 @@
     align-items: center;
     justify-content: center;
 }
+
+
+.title {
+    width: fit-content;
+    display: flex;
+    margin-top: fill;
+    color: #292929;
+    font-size: 15px;
+}
+
+.movie_list.item {
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: fill;
+    justify-items: center;
+    border-radius: 50px;
+    align-content: center;
+    align-items: center;
+}

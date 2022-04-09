@@ -1,7 +1,3 @@
-/*@import url('vazir-fonts/fonts.css');*/
-/*@import url('vazir-fd-fonts/font-face-FD.css');*/
-
-
 .row {
     display: -webkit-flex;
     display: flex;
@@ -30,14 +26,8 @@
     flex-basis: 10em;
     align-items: center;
     justify-content: center;
-    /*display: flex;*/
 }
-/*.column {*/
-/*    padding: 10px;*/
-/*    flex-basis: 10em;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
+
 
 .column.side {
     -webkit-flex: 1;
@@ -52,9 +42,9 @@
 
 .column.side img {
     position: relative;
-    width: 400px;
-    height: 600px;
-
+    width: 30em;
+    height: 35em;
+    shadow: 0 0 10px #000;
 }
 
 .column.middle {
@@ -70,3 +60,23 @@
     }
 }
 
+.title {
+    width: fit-content;
+    display: flex;
+    margin-top: fill;
+    color: #292929;
+    font-size: 15px;
+}
+
+.movie_list.item {
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-top: fill;
+    justify-items: center;
+    border-radius: 50px;
+    align-content: center;
+    align-items: center;
+}
