@@ -10,7 +10,7 @@
     display: flex;
 }
 .header_avatar {
-    background-image: url("header.jpeg");
+    background-image: url("pictures/header.jpeg");
     background-size: 100% 100%;
     width: 100%;
     object-fit: fill;
@@ -55,11 +55,22 @@
     position: center;
 }
 
+.transparent_row.middle {
+    background-color: #4E4E50;
+    justify-content: center;
+    border-radius: 50px 50px 0px 0px;
+    height: fit-content;
+    width: 1000px;
+    position: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
 .movie_list.actor{
-    width: 990px;
+    border-radius: 0px 0px 50px 50px;
+    width: 1000px;
     justify-content: center;
     display: flex;
-    margin-top: 150px;
+    margin-top: 0px;
     justify-items: center;
 }
 
@@ -91,5 +102,5 @@
 }
 .checked {
     color: orange;
-    size: 40px;
+
 }
