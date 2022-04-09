@@ -1,3 +1,10 @@
+.dropdown.search i {
+    font-size: 27px;
+    color: #B12025;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
 .row {
     display: -webkit-flex;
     display: flex;
@@ -39,14 +46,14 @@
     flex-direction: row;
     max-height: 100vh;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
 }
-/*.cards img {*/
-/*    border: 3px solid #000;*/
-/*    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);*/
-/*    max-width: 23vw;*/
-/*}*/
+.cards img {
+    border-radius: 0px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.5);
+    max-width: 23vw;
+}
 
 .cards ul {
     display: flex;
@@ -58,23 +65,94 @@
     padding: 20px;
     list-style: none;
     /*flex: 0 0 50%;*/
-    flex: 0 0 33.333333%;
+    flex: 0 0 25%;
 }
 .box {
     display: flex;
     row-gap: 2px;
     column-gap: 20px;
     flex-basis: auto;
-    margin: 20px;
-    padding: 20px;
+    margin: 30px;
+    padding: 5px 30px;
     flex: 3;
     width: content-box;
     background-color: #B12025;
     color: white;
     border-radius: 20px;
-    width: 200px;
-    height: auto;
+    width: fit-content;
     text-align: center;
     justify-content: center;
     float: right;
+}
+
+
+.topnav .searchBox {
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: white;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.topnav ul {
+    justify-content: center;
+    align-content: center;
+    margin-top: -5px;
+}
+
+.topnav .searchBox > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.topnav .searchButton {
+    display: flex;
+    color:  #B12025;
+    width: 25px;
+    height: 20px;
+    border: none;
+    background: white;
+}
+
+.topnav .searchInput {
+    border: none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.dropdown.search {
+    justify-content: center;
+    align-content: center;
+    margin-left: 450px;
+    margin-top: 12px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 250px;
+    height: fit-content;
+}
+.dropdown-content.search {
+    justify-content: center;
+    align-content: center;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.search-type {
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    width: fit-content;
+    text-align: right;
+    font-size: 0.95em;
+    margin-left: 35px;
+    margin-top: 0px;
 }

@@ -1,12 +1,14 @@
 html {
-    font-family:  Vazir FD;
+    font-family: 'Vazir', sans-serif;
     font-size: 23px;
     color: #dddddd;
+
 }
 
 font {
     size:20px;
     color:#FF7A59;
+
 }
 
 body {
@@ -19,6 +21,8 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #B12025;
+    justify-content: center;
+
     /*position: relative;*/
     /*top: 0px;*/
     /*left: 0px;*/
@@ -128,8 +132,6 @@ body {
     width: 250px;
     object-fit: fill;
     border-radius: 20px;
-    /*background: rgb(0, 0, 0);*/
-    /*background: rgba(0, 0, 0, 0.5); !* Black see-through *!*/
     background: #B1202550;
     color: #f1f1f1;
     transition: .5s ease;
@@ -151,27 +153,21 @@ body {
     overflow: hidden;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    font-family: inherit;
-    margin: 20px;
-}
-
 
 .dropdown-content {
+    border-radius: 20px;
     display: none;
     position: absolute;
     background-color: #B1202550;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-top: 60px;
     z-index: 1;
+    left: auto;
+}
+
+.dropdown-content.nav{
     right: 0;
+    margin-top: 65px;
     left: auto;
 }
 
