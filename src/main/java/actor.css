@@ -10,12 +10,14 @@
 
 .row.right {
     justify-content: right;
+    font-size: 20px;
 }
 
 .row.top {
     align-items: center;
     justify-content: center;
     background-color: #292929;
+    font-size: 25px;
 }
 
 .column {
